@@ -1,0 +1,32 @@
+.firstDiv {
+  color: blue;
+
+}
+/*Classes are always referenced by a .*/
+.secondDiv{
+  color: red;
+}
+
+/*Ids are referenced by a #*/
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/** is a selector for every element on the page.  It will not override IDs, but it will override class calls*/
+
+
+/*adjacent siblings..in this case any UL next to an h3 will be affected*/
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="http://www.cnn.com"]{
+  color: blue;
+  border: 5px solid orange;
+}
